@@ -8,6 +8,7 @@
 html{
     width: 410px;
     background-color: #FFEEEF;
+        -webkit-text-size-adjust:100%;
 }
 body{
     background-color: #fff;
