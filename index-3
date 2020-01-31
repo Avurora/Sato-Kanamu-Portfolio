@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ootashitamatienisi</title>
+<meta name="viewport" content="width=410px">
+<link rel="stylesheet" href="style-2.css">
+</head>
+
+<body>
+
+<!--    ヘッダー----------------------------------------------->
+<div class="hedder-bg">
+		<div class="hedder-square"></div>
+		<p class="p1">Sato Kanamu</p>
+		<br>
+		<p class="p2">Portfolio</p>
+</div>
+<img src="sitamatienisi-3.png" alt="" width="100%">
+    <h4>「2020年の大田区がすごい！」</h4>
+    <p class="text-1">学校の課題にて大田区の観光客誘致のイベントを<br>
+企画し、グループでツールを作る課題。<br>
+webサイト、AR、ポスター、リーダーの役割の中で<br>
+私はwebサイト制作を担当した。</p>
+<a href="https://avurora.github.io/test/#TOP">実際に課題で作ったwebサイトはコチラ</a>
+<div class="center"> <img src="sitamatienisi-2.png" alt="" width="90%"> </div>
+<div class="center"> <img src="sitamatienisi-1.png" alt="" width="90%" class="img1"> </div>
+    <div class="hedder-bg bg2">
+    </div>
+</body>
+</html>
