@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/* CSS Document */
+/*all--------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 410px;
+    background-color: #FFEEEF;
+}
+body{
+    background-color: #fff;
+}
+.center{text-align: center;}
+
+/*header--------------------------------------------------------*/
+.hedder-bg{
+    width: 410px;
+    background-color: #87A3FF;
+    display: inline-block;
+}
+.hedder-square{
+    width: 30px;
+    height: 70px;
+    background-color: #FFF;
+    display: inline-block;
+    margin: 20px 20px 0px 30px;
+    margin-bottom: -50px;
+}
+.p1{
+    color: #FFF;
+    font-size: 18px;
+    display: inline-block;
+    letter-spacing: 10px;
+}
+.p2{
+    color: #FFF;
+    font-size: 40px;
+    display: inline-block;
+    margin-left: 85px;
+    margin-top: -10px;
+    margin-bottom: 14px;
+    letter-spacing: 13px;
+}
+
+/*プロフィール--------------------------------------------------------*/
+.profile{
+    margin-top: 30px;
+    margin-bottom: 4px;
+}
+
+.p-text{
+    font-size: 11px;
+    text-align: center;
+    line-height: 23px;
+    margin-left: 12px;
+}
+.masking{
+    margin-top: 30px;
+    margin-bottom: -133px; 
+}
+
+.p-text2{
+    padding-top: 40px;
+    font-size: 13px;
+    width: 340px;
+    text-align: center;
+    margin-left: 35px;
+}
+
+/*glaff--------------------------------------------------------*/
+.picrure{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+
+/*nav--------------------------------------------------------*/
+.nav a{
+    margin: 30px;
+    background-color: #87A3FF;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #FFF;
+}
+.nav{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/*works--------------------------------------------------------*/
+.works-img{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.works img{
+    margin-top: 20px;
+}
+
+/*contact--------------------------------------------------------*/
+.contact-img{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.contact{
+    margin-top: 30px;
+    text-align: center;
+}
+.contact p{
+    font-size : 11px;
+}
+
+
+.inline1{
+    display: inline-block;
+}
+.inline1 p{
+    display: inline-block;
+    padding-bottom: 30px;
+    margin-left: 20px;
+}
+.inline1 img{
+    display: inline-block;
+    margin-bottom: -13px;
+}
+
+
+.inline2{
+    display: inline-block;
+}
+.inline2 p{
+    display: inline-block;
+    margin-left: 16px;
+}
+.inline2 img{
+    display: inline-block;
+    margin-bottom: -16px;
+    margin-left: -83px;
+}
+/*fotter--------------------------------------------------------*/
+.footer{
+    margin-top: 90px;
+    height: 50px;
+    background-color: #87A3FF;
+}
+.footer p{
+    padding-top: 10px;
+    color: #FFF;
+    font-size: 10px;
+    text-align: center;
+    
+}
+/*all--------------------------------------------------------*/
+/*all--------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
