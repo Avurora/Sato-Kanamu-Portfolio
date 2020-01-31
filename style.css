@@ -20,29 +20,29 @@ body{
     width: 100%;
     background-color: #859CD0;
     position: relative;
-    height: 8.4vh;
+    height: 70px;
 }
 .hedder-square{
     background-color: #FFF;
-    width: 5vw;
-    height: 6.6vh;
+    width: 5%;
+    height: 77%;
     position: absolute;
-    top: 0.8vh;
-    left: 2.5vh;
+    top: 11%;
+    left: 2%;
 }
 .p1{
     color: #FFF;
     position: absolute;
-    top: 0.6vh;
-    left: 14vw;
+    top: 10%;
+    left: 10%;
     letter-spacing: 3px;
     
 }
 .p2{
     color: #FFF;
     position: absolute;
-    top: 1.8vh;
-    left: 14vw;
+    top: 28%;
+    left: 10%;
     font-size: 40px;
     letter-spacing: 8px;
 }
