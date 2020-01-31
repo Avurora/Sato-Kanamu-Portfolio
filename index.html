@@ -1,69 +1,187 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Sato Kanamu Portfolio</title>
-<meta name="viewport" content="width=410px">
-<link rel="stylesheet" href="style.css">
-<script src="jquery-3.4.1.min.js"></script>
-</head>
+@charset "UTF-8";
+/* CSS Document */
+/*all--------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 410px;
+    background-color: #FFEEEF;
+        -webkit-text-size-adjust:100%;
+}
+body{
+    background-color: #fff;
+}
+.center{text-align: center;}
 
-<body>
+/*header--------------------------------------------------------*/
+.hedder-bg{
+    width: 410px;
+    background-color: #87A3FF;
+    display: inline-block;
+}
+.hedder-square{
+    width: 30px;
+    height: 70px;
+    background-color: #FFF;
+    display: inline-block;
+    margin: 20px 20px 0px 30px;
+    margin-bottom: -50px;
+}
+.p1{
+    color: #FFF;
+    font-size: 18px;
+    display: inline-block;
+    letter-spacing: 10px;
+}
+.p2{
+    color: #FFF;
+    font-size: 40px;
+    display: inline-block;
+    margin-left: 85px;
+    margin-top: -10px;
+    margin-bottom: 14px;
+    letter-spacing: 13px;
+}
 
-<!--    ヘッダー----------------------------------------------->
-<div class="hedder-bg">
-		<div class="hedder-square"></div>
-		<p class="p1">Sato Kanamu</p>
-		<br>
-		<p class="p2">Portfolio</p>
-</div>
-<!--    プロフィール----------------------------------------------->
-<div class="center"> <img src="picture-16.png" alt="" width="120px" class="profile"> </div>
-<img src="picture-14.png" alt="" width="410px" >
-<div class="center"><img src="picture-2.png" alt="" class="masking" width="370px"></div>
-<p class="p-text">これまで東京工科大学にてデザインを学んできました。<br>
-		この度はこのポートフォリをサイトをご覧いただき、<br>
-		誠にありがとうございます<br>
-		私はそもそもデザイン、パソコンを操作することがとても好きです。<br>
-		この熱意を仕事の熱意へ転換できるようにしたいです。</p>
-<p class="p-text2">わたしはデザイン学部として様々な作品を作ってきました。なかでも印象に残っているのは2年次後期の画像加工というAdobe Photoshopを使ってグラフィックス作品を作るという授業です。最終課題では 2020 東京 TOKYO というキーワードでグラフィックス作品を作るというもので、私はPhotoshopに触ったことがなかったので、自主制作をたくさん行い、Photoshopを早いオペレートでこなせるようになりました。その最終課題ではかなり努力して、自分で素材を撮影して作品を作りました。中間発表で指摘を受けたところを自分なりに解釈して本気で作りこんだところ、教員から「完成度が非常に高い」といわれ、その授業では評定Sをいただくことができました。</p>
+/*プロフィール--------------------------------------------------------*/
+.profile{
+    margin-top: 30px;
+    margin-bottom: 4px;
+}
 
-<!--    glaff----------------------------------------------->
-<div class="center picrure"><img src="graff-1.png" alt="" width="340px"></div>
-<!--    nav----------------------------------------------->
-<div class="nav center"> <a href="#works" class="nav-1">Works▼</a> <a href="#contact" class="nav-2">Contact▼</a></div>
-<!--    works----------------------------------------------->
-<div class="center works-img"><img src="picture-4.png" alt="" width="120px"></div>
-<div class="center works">
-    <img src="picture-3.png" alt="" width="360px" id="works">
-    <img src="picture-5.png" alt="" width="360px">
-    <img src="picture-6.png" alt="" width="360px"> 
-    <img src="picture-7.png" alt="" width="360px">
-    <img src="picture-1.png" alt="" width="360px">
-    <img src="picture-8.png" alt="" width="360px">
-    <img src="picture-9.png" alt="" width="360px">
-    <img src="picture-15.png" alt="" width="360px">
-    <img src="picture-10.png" alt="" width="360px">
-    </div>
-<!--    contact----------------------------------------------->
-<div class="center contact-img"> <img src="picture-11.png" alt="" width="130px"> </div>
-<div class="contact" id="contact">
-		<div class="inline1"> <img src="picture-12.png" alt="" width="60">
-				<p>d0117105b2@edu.teu.ac.jp</p>
-		</div>
-		<br>
-		<div class="inline2"> <img src="picture-13.png" alt="" width="60">
-				<p>@629_k176</p>
-		</div>
-</div>
-<!--    footer----------------------------------------------->
-<div class="footer">
-		<p>©️Kanamu Sato<br>
-				2020.01.31</p>
-</div>
-<!--    ヘッダー-----------------------------------------------> 
-<!--    ヘッダー----------------------------------------------->
+.p-text{
+    font-size: 11px;
+    text-align: center;
+    line-height: 23px;
+    margin-left: 12px;
+}
+.masking{
+    margin-top: 30px;
+    margin-bottom: -133px; 
+}
 
-<script src="script.js"></script>
-</body>
-</html>
+.p-text2{
+    padding-top: 40px;
+    font-size: 13px;
+    width: 340px;
+    text-align: center;
+    margin-left: 35px;
+}
+
+/*glaff--------------------------------------------------------*/
+.picrure{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+
+/*nav--------------------------------------------------------*/
+.nav a{
+    margin: 30px;
+    background-color: #87A3FF;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #FFF;
+}
+.nav{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/*works--------------------------------------------------------*/
+.works-img{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.works img{
+    margin-top: 20px;
+}
+
+/*contact--------------------------------------------------------*/
+.contact-img{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.contact{
+    margin-top: 30px;
+    text-align: center;
+}
+.contact p{
+    font-size : 11px;
+}
+
+
+.inline1{
+    display: inline-block;
+}
+.inline1 p{
+    display: inline-block;
+    padding-bottom: 30px;
+    margin-left: 20px;
+}
+.inline1 img{
+    display: inline-block;
+    margin-bottom: -13px;
+}
+
+
+.inline2{
+    display: inline-block;
+}
+.inline2 p{
+    display: inline-block;
+    margin-left: 16px;
+}
+.inline2 img{
+    display: inline-block;
+    margin-bottom: -16px;
+    margin-left: -83px;
+}
+/*fotter--------------------------------------------------------*/
+.footer{
+    margin-top: 90px;
+    height: 50px;
+    background-color: #87A3FF;
+}
+.footer p{
+    padding-top: 10px;
+    color: #FFF;
+    font-size: 10px;
+    text-align: center;
+    
+}
+/*all--------------------------------------------------------*/
+/*all--------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
