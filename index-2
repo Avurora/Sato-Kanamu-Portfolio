@@ -10,12 +10,12 @@
 <body>
 
 <!--    ヘッダー----------------------------------------------->
-<div class="hedder-bg">
+<a href="index-1.html"><div class="hedder-bg">
 		<div class="hedder-square"></div>
 		<p class="p1">Sato Kanamu</p>
 		<br>
 		<p class="p2">Portfolio</p>
-</div>
+</div></a>
 <img src="sitamatienisi-3.png" alt="" width="100%">
     <h4>「2020年の大田区がすごい！」</h4>
     <p class="text-1">学校の課題にて大田区の観光客誘致のイベントを<br>
