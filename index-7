@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>hinata-wallpaper</title>
+<meta name="viewport" content="width=410px">
+<link rel="stylesheet" href="style-7.css">
+</head>
+
+<body>
+    
+<a href="index.html"><div class="hedder-bg">
+		<div class="hedder-square"></div>
+		<p class="p1">Sato Kanamu</p>
+		<br>
+		<p class="p2">Portfolio</p>
+</div></a>
+    
+    
+    
+    
+    
+    <img src="zassi-01.png" alt="" width="100%">
+    <h4>「人物のインタビュー・撮影を行い、<br>
+　　　　　　　　　　　　　架空雑誌を作る」</h4>
+    <p class="text-1">この課題はグループを作り、尊敬する人のインタビュー・撮影を行いその人のインタビュー雑誌を作るというもの。
+私はこのグループにてリーダーを務め、インタビューを受ける人にアポを取ったりした。質問内容などは皆で考え順番で質問をした。</p>
+    
+    <p class="text-2">実際の紙面▼</p><div class="center">
+    <img src="zassi-02.png" alt="" width="100%"></div>
+    
+    
+    <p class="text-2">インタビューの様子▼</p>
+    <div class="cente img-1">
+    <img src="zassi-03.png" alt="" width="90%"></div>
+
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+
+    <div class="hedder-bg">    </div>
+    
+    
+    
+</body>
+</html>
