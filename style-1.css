@@ -8,7 +8,7 @@
 html{
     width: 410px;
     background-color: #FFEEEF;
-        -webkit-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
 }
 body{
     background-color: #fff;
@@ -19,35 +19,35 @@ body{
 
 /*header--------------------------------------------------------*/
 .hedder-bg{
-    width: 410px;
+    width: 100%;
     background-color: #859CD0;
-    display: inline-block;
+    position: relative;
+    height: 70px;
 }
 .hedder-square{
-    width: 30px;
-    height: 70px;
     background-color: #FFF;
-    display: inline-block;
-    margin: 20px 20px 0px 30px;
-    margin-bottom: -50px;
+    width: 5%;
+    height: 77%;
+    position: absolute;
+    top: 11%;
+    left: 2%;
 }
 .p1{
     color: #FFF;
-    font-size: 18px;
-    display: inline-block;
-    letter-spacing: 10px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    letter-spacing: 3px;
+    
 }
 .p2{
     color: #FFF;
+    position: absolute;
+    top: 28%;
+    left: 10%;
     font-size: 40px;
-    display: inline-block;
-    margin-left: 85px;
-    margin-top: -10px;
-    margin-bottom: 14px;
-    letter-spacing: 13px;
+    letter-spacing: 8px;
 }
-
-
 /*title--------------------------------------------------------*/
 h4{
     padding-top: 20px;
@@ -63,11 +63,12 @@ h4{
 }
 .p-1{
     width: 363px;
-    padding: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 .p-2{
     width: 363px;
-    padding: 30px;
+    padding-left: 30px;
     padding-top: 10px;
 }
 
