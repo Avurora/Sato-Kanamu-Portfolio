@@ -17,32 +17,32 @@ body{
 
 /*header--------------------------------------------------------*/
 .hedder-bg{
-    width: 410px;
+    width: 100%;
     background-color: #859CD0;
     position: relative;
-    height: 80px;
+    height: 8.4vh;
 }
 .hedder-square{
     background-color: #FFF;
-    width: 6%;
-    height: 80%;
+    width: 5vw;
+    height: 6.6vh;
     position: absolute;
-    top:9%;
-    left: 5%;
+    top: 0.8vh;
+    left: 2.5vh;
 }
 .p1{
     color: #FFF;
     position: absolute;
-    top: 7%;
-    left: 70px;
+    top: 0.6vh;
+    left: 14vw;
     letter-spacing: 3px;
     
 }
 .p2{
     color: #FFF;
     position: absolute;
-    top: 22%;
-    left: 70px;
+    top: 1.8vh;
+    left: 14vw;
     font-size: 40px;
     letter-spacing: 8px;
 }
