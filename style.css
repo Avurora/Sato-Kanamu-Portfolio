@@ -18,31 +18,33 @@ body{
 /*header--------------------------------------------------------*/
 .hedder-bg{
     width: 410px;
-    background-color: #87A3FF;
-    display: inline-block;
+    background-color: #859CD0;
+    position: relative;
+    height: 80px;
 }
 .hedder-square{
-    width: 30px;
-    height: 70px;
     background-color: #FFF;
-    display: inline-block;
-    margin: 20px 20px 0px 30px;
-    margin-bottom: -50px;
+    width: 30px;
+    height: 65px;
+    position: absolute;
+    top: 7px;
+    left: 20px;
 }
 .p1{
     color: #FFF;
-    font-size: 18px;
-    display: inline-block;
-    letter-spacing: 10px;
+    position: absolute;
+    top: 7px;
+    left: 70px;
+    letter-spacing: 3px;
+    
 }
 .p2{
     color: #FFF;
+    position: absolute;
+    top: 22px;
+    left: 70px;
     font-size: 40px;
-    display: inline-block;
-    margin-left: 85px;
-    margin-top: -10px;
-    margin-bottom: 14px;
-    letter-spacing: 13px;
+    letter-spacing: 8px;
 }
 
 /*プロフィール--------------------------------------------------------*/
