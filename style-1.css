@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+/*all--------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 410px;
+    background-color: #FFEEEF;
+}
+body{
+    background-color: #fff;
+}
+.center{text-align: center;}
+
+
+
+/*header--------------------------------------------------------*/
+.hedder-bg{
+    width: 410px;
+    background-color: #859CD0;
+    display: inline-block;
+}
+.hedder-square{
+    width: 30px;
+    height: 70px;
+    background-color: #FFF;
+    display: inline-block;
+    margin: 20px 20px 0px 30px;
+    margin-bottom: -50px;
+}
+.p1{
+    color: #FFF;
+    font-size: 18px;
+    display: inline-block;
+    letter-spacing: 10px;
+}
+.p2{
+    color: #FFF;
+    font-size: 40px;
+    display: inline-block;
+    margin-left: 85px;
+    margin-top: -10px;
+    margin-bottom: 14px;
+    letter-spacing: 13px;
+}
+
+
+/*title--------------------------------------------------------*/
+h4{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+   
+}
+.hinata-link{
+    padding: 30px;
+}
+.hinata-img{
+    margin-bottom: 20px;
+}
+.p-1{
+    width: 363px;
+    padding: 30px;
+}
+.p-2{
+    width: 363px;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+
+.bg{
+    background-color: #859CD0;
+    width: 410px;
+    height: 60px;
+    margin-top: 30px;
+}
+/*main-img--------------------------------------------------------*/
+/*main-img--------------------------------------------------------*/
+/*main-img--------------------------------------------------------*/
+/*main-img--------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
